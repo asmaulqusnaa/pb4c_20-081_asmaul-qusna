@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bggradient"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/apa"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textAlignment="center"
+        android:textColor="#77797A"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Welcome Back!"
+        android:layout_marginBottom="16dp"
+        />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e m a i l"
+        android:textColorHint="#99535353"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="#D0FFFFFF"
+        android:padding="16dp"
+        android:textSize="10sp"
+        android:layout_marginBottom="16dp"
+        />
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="p a s s w o r d"
+        android:textAlignment="center"
+        android:textColorHint="#99535353"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:background="#D0FFFFFF"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="italic"
+        />
+    <Button
+        android:id="@+id/terbaru"
+        android:layout_width="100dp"
+        android:layout_height="58dp"
+        android:padding="16dp"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+    <Button
+        android:id="@+id/baru"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="1dp"
+        android:background="#2196F3"
+        android:padding="2dp"
+        android:text="REGISTRASI"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+</LinearLayout>
